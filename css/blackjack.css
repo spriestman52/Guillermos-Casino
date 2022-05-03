@@ -92,8 +92,6 @@ header h3 {
   display: inline;
 }
 
-
-/* Mobile & Tablet Styles */
 @media only screen and (max-width: 960px) {
   
   header {
@@ -147,8 +145,6 @@ button {
   margin: 0 5% 0 0;
 }
 
-
-/*Tablet Styles */
 @media only screen and (max-width: 960px) {
   
   .dealerHand, .userHand {
@@ -179,8 +175,6 @@ button {
   }
 }
 
-
-/*Mobile Styles */
 @media only screen and (max-width: 550px) {
   
   .dealerHand, .userHand {
@@ -202,7 +196,7 @@ button {
 }
 
 h1, h3, h4, .score, #hit, #stand, #playAgain {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Exo', serif;
   text-transform: uppercase;
 }
 

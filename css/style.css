@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+   }
+
+:root {
+    --ff-primary: 'Exo', serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-gray: #222222;
+    --clr-dark: #000000;
+    --clr-accent: #B7A369;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+    /*HEADER*/
+header {
+    letter-spacing: 1px;
+    font-family: var(--ff-primary);
+    width: 100%;
+    float: left;
+    background-size: 100%;
+    font-family:  'Exo', serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+}
+#headerImg {
+    object-fit: contain;
+    margin-top: -13em;
+    filter: brightness(25%);
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    margin-top: -35em;
+}
+
+
+    /*ABOUT*/
+#aboutImg {
+    border-radius: 50px;
+    float: left;
+    width: 500px;
+    height: auto;
+    border: 2px solid white;
+    position: relative;
+    margin-left: 17.5em;
+    margin-top: -16em;
+
+}
+.about {
+    font-family: 'Exo', serif;
+    word-wrap: break-word;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    margin-left: 47.5em;
+    margin-top: 10em;
+    inline-size: 500px;
+}
+
+
+    /*GAMES*/
+.games {
+    font-family: 'Exo', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10em;
+}
+
+#blackjackImg {
+    border-radius: 25px 25px 0px 0px;
+    width: 255px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 14em;
+    margin-top: 2.5em;
+}
+.blackBoxBJ {
+    border-radius: 0px 0px 25px 25px;
+    width: 255px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 14em;
+    margin-top: -20px;
+    background-color: black;
+}
+.boxText {
+    color: white;
+    text-align: center;
+    font-family: 'Exo', serif;
+}
+.boxText--title {
+    padding-top: 20px;
+}
+
+#rouletteImg {
+    border-radius: 25px 25px 0px 0px;
+    width: 255px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 44em;
+    margin-top: -640px;
+    margin-bottom: 640px;
+}
+.blackBoxR {
+    border-radius: 0px 0px 25px 25px;
+    width: 255px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 44em;
+    margin-top: -660px;
+    background-color: black;
+}
+
+#slotsImg {
+    border-radius: 25px 25px 0px 0px;
+    width: 255px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 74em;
+    margin-top: -640px;
+    margin-bottom: 640px;
+    position: relative;
+}
+.blackBoxS {
+    border-radius: 0px 0px 25px 25px;
+    width: 255px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 74em;
+    margin-top: -660px;
+    background-color: black;
+}
+
+button {
+    font-family: 'Exo', serif;
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.blackjackButton {
+    margin-top: 2.5em;
+    margin-left: 17.25em;
+}
+.rouletteButton {
+    margin-top: 2.5em;
+    margin-left: 47.25em;
+}
+.slotsButton {
+    margin-top: 2.5em;
+    margin-left: 77.25em;
+}

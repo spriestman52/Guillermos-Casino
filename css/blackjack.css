@@ -28,10 +28,10 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: 'Exo', serif;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -54,10 +54,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/****************************/
-/*----------Layout----------*/
-/****************************/
 
 body {
   font-size: 10px;
@@ -108,13 +104,6 @@ header h3 {
     text-align: left;
   }
 }
-
-
-
-
-/****************************/
-/*--Border--Padding--Margin--*/
-/****************************/
 
 h1, h3 {
   padding: .25em .5em;
@@ -212,11 +201,6 @@ button {
   
 }
 
-
-/****************************/
-/*-------Typography---------*/
-/****************************/
-
 h1, h3, h4, .score, #hit, #stand, #playAgain {
   font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
@@ -306,12 +290,6 @@ h4 {
   }
 }
 
-/****************************/
-/*--------Coloring----------*/
-/****************************/
-
-
-
 h1, h3 {
   color: white;
 }
@@ -331,11 +309,6 @@ button {
   color: #d1bc1d;
   box-shadow: 0 .2em .2em rgba(0,0,0,.3);
 }
-
-
-/****************************/
-/*-----Button Activity------*/
-/****************************/
 
 button:hover {
   color: #661904;

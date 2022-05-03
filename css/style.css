@@ -172,3 +172,63 @@ button {
     margin-top: 2.5em;
     margin-left: 77.25em;
 }
+
+.game_section{
+    margin-bottom: 100px;
+}
+
+    /*FOOTER*/
+.footer{
+    background-color: #222222;
+    height: 310px;
+    text-align: center;
+    font-family: 'Exo', serif;
+    color: white;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+
+.footer #github {
+    filter: brightness(7);
+    background-color: transparent;
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+    margin-left: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.footer #github:hover,
+.footer #github:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.footer #linkedin {
+    filter: brightness(7);
+    background-color: transparent;
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.footer #linkedin:hover,
+.footer #linkedin:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.footer #LinkedIn {
+    text-decoration: none;
+}
+.footer #Email {
+    text-decoration: none;
+}
+
+.footer #email {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.815);
+    text-decoration: none;
+}

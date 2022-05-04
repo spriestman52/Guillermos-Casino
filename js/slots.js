@@ -12,7 +12,6 @@
       "🍊",
       "🍎"
     ];
-    document.querySelector(".info").textContent = items.join(" ");
   
     const doors = document.querySelectorAll(".door");
     document.querySelector("#spinner").addEventListener("click", spin);
